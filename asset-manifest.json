@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/taste-hub/static/css/main.fd3c1a60.css",
-    "main.js": "/taste-hub/static/js/main.3439e6a5.js",
-    "static/js/453.52cc5c01.chunk.js": "/taste-hub/static/js/453.52cc5c01.chunk.js",
-    "static/media/pizza-img.png": "/taste-hub/static/media/pizza-img.65747f1cb75802600d8c.png",
-    "index.html": "/taste-hub/index.html",
-    "main.fd3c1a60.css.map": "/taste-hub/static/css/main.fd3c1a60.css.map",
-    "main.3439e6a5.js.map": "/taste-hub/static/js/main.3439e6a5.js.map",
-    "453.52cc5c01.chunk.js.map": "/taste-hub/static/js/453.52cc5c01.chunk.js.map"
+    "main.css": "/ayushsingh1019/taste-hub/static/css/main.fd3c1a60.css",
+    "main.js": "/ayushsingh1019/taste-hub/static/js/main.bf7c56ad.js",
+    "static/js/453.52cc5c01.chunk.js": "/ayushsingh1019/taste-hub/static/js/453.52cc5c01.chunk.js",
+    "static/media/pizza-img.png": "/ayushsingh1019/taste-hub/static/media/pizza-img.65747f1cb75802600d8c.png",
+    "index.html": "/ayushsingh1019/taste-hub/index.html",
+    "main.fd3c1a60.css.map": "/ayushsingh1019/taste-hub/static/css/main.fd3c1a60.css.map",
+    "main.bf7c56ad.js.map": "/ayushsingh1019/taste-hub/static/js/main.bf7c56ad.js.map",
+    "453.52cc5c01.chunk.js.map": "/ayushsingh1019/taste-hub/static/js/453.52cc5c01.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd3c1a60.css",
-    "static/js/main.3439e6a5.js"
+    "static/js/main.bf7c56ad.js"
   ]
 }
