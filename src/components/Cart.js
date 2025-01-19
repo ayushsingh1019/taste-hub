@@ -20,15 +20,15 @@ const Cart = () => {
   return (
     <>
       <div
-        className={`fixed right-0 top-0 w-full lg:w-[20vw] h-full p-5 bg-white mb-3 ${
+        className={`fixed right-0 top-0 w-full lg:w-[20vw] h-full p-6 bg-white shadow-lg ${
           activeCart ? "translate-x-0" : "translate-x-full"
-        } transition-all duration-500 z-50`}
+        } transition-all duration-500 z-50 rounded-l-lg`}
       >
-        <div className="flex justify-between items-center my-3">
-          <span className="text-xl font-bold text-gray-800">My Order</span>
+        <div className="flex justify-between items-center mb-6">
+          <span className="text-2xl font-bold text-gray-800">My Order</span>
           <IoMdClose
             onClick={() => setActiveCart(!activeCart)}
-            className="border-2 border-gray-600 text-gray-600 font-bold  p-1 text-xl  rounded-md hover:text-red-300 hover:border-red-300 cursor-pointer"
+            className="text-gray-600 font-bold p-2 text-4xl rounded-md hover:text-red-500 cursor-pointer transition-all duration-300"
           />
         </div>
 
@@ -46,30 +46,31 @@ const Cart = () => {
             );
           })
         ) : (
-          <h2 className="text-center text-xl font-bold text-gray-800">
+          <h2 className="text-center text-lg font-semibold text-gray-600">
             Your cart is empty
           </h2>
         )}
 
-        <div className="absolute bottom-0 ">
-          <h3 className="font-semibold text-gray-800">Items : {totalQty}</h3>
-          <h3 className="font-semibold text-gray-800">
-            Total Amount : {totalPrice}
-          </h3>
-          <hr className="w-[90vw] lg:w-[18vw] my-2" />
+        <div className="absolute bottom-10 left-0 w-full px-4">
+          <hr className="my-4 border-gray-300" />
+          <div className="flex justify-between mb-3">
+            <h3 className="font-semibold text-gray-800">Items: {totalQty}</h3>
+            <h3 className="font-semibold text-gray-800">Total: ₹{totalPrice}</h3>
+          </div>
           <button
             onClick={() => navigate("/success")}
-            className="bg-green-500 font-bold px-3 text-white py-2 rounded-lg w-[90vw] lg:w-[18vw] mb-5"
+            className="bg-green-500 text-white font-bold px-6 py-3 rounded-lg w-full transition-all duration-300 hover:bg-green-600"
           >
             Checkout
           </button>
         </div>
       </div>
+
       <FaShoppingCart
         onClick={() => setActiveCart(!activeCart)}
-        className={`rounded-full bg-white shadow-md text-5xl p-3 fixed bottom-4 right-4 ${
-          totalQty > 0 && "animate-bounce delay-500 transition-all"
-        } `}
+        className={`rounded-full bg-white shadow-lg text-6xl p-4 fixed bottom-6 right-6 transition-all duration-300 ${
+          totalQty > 0 ? "animate-bounce" : ""
+        }`}
       />
     </>
   );
