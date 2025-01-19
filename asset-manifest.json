@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/taste-hub/static/css/main.fd3c1a60.css",
+    "main.js": "/taste-hub/static/js/main.3439e6a5.js",
+    "static/js/453.52cc5c01.chunk.js": "/taste-hub/static/js/453.52cc5c01.chunk.js",
+    "static/media/pizza-img.png": "/taste-hub/static/media/pizza-img.65747f1cb75802600d8c.png",
+    "index.html": "/taste-hub/index.html",
+    "main.fd3c1a60.css.map": "/taste-hub/static/css/main.fd3c1a60.css.map",
+    "main.3439e6a5.js.map": "/taste-hub/static/js/main.3439e6a5.js.map",
+    "453.52cc5c01.chunk.js.map": "/taste-hub/static/js/453.52cc5c01.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd3c1a60.css",
+    "static/js/main.3439e6a5.js"
+  ]
+}
