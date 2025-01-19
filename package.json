@@ -18,7 +18,7 @@
     "react-spinners": "^0.14.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://github.com/ayushsingh1019/taste-hub",
+  "homepage": "https://ayushsingh1019.github.io/taste-hub",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
